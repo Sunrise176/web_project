@@ -1,11 +1,14 @@
 import datetime
 import sqlalchemy
+from data.binds import Base
 from .db_session import SqlAlchemyBase
 from werkzeug.security import generate_password_hash, check_password_hash
 
 
-class User(SqlAlchemyBase):
+#class User(SqlAlchemyBase):
+class User(Base):
     __tablename__ = 'users'
+    bind_key = 'users_db'
 
     id = sqlalchemy.Column(sqlalchemy.Integer,
                            primary_key=True, autoincrement=True)
