@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9f25c3-63c8-4257-9fc0-3c0098404bb2" name="Changes" comment="register and login">
-      <change afterPath="$PROJECT_DIR$/data/binds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/decks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/view_decks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/view_library.html" afterDir="false" />
+    <list default="true" id="9e9f25c3-63c8-4257-9fc0-3c0098404bb2" name="Changes" comment="all project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/__all_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__all_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/blogs.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/blogs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746785719961</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="all project">
+      <option name="closed" value="true" />
+      <created>1747266049720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747266049720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="register and login" />
-    <option name="LAST_COMMIT_MESSAGE" value="register and login" />
+    <MESSAGE value="all project" />
+    <option name="LAST_COMMIT_MESSAGE" value="all project" />
   </component>
 </project>
