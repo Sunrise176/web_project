@@ -309,7 +309,6 @@ def login():
     is_login = session['is_login']
     username = session['username']
     form = LoginForm()
-    print(form.validate_on_submit())
     if form.validate_on_submit() and not is_login:
         for us in db_sess.query(User).filter(User.name == form.name.data):
             if check_password_hash(us.hashed_password, form.password.data):
@@ -334,8 +333,6 @@ def logout():
     is_login = session['is_login']
     #username = session['username']
     form = LoginForm()
-    print(form.validate_on_submit())
-    print(request.form.keys())
     if request.form.keys() and is_login:
         is_login = False
         session['is_login'] = False
@@ -351,7 +348,6 @@ def View_decks():
     username = session['username']
     res = []
     for deck in db_sess_deck.query(Deck).all():
-        print(deck.ch1)
         res.append([deck.ch1, deck.ch2, deck.ch3, deck.ch4, deck.ch5, deck.ch6, deck.ch7, deck.ch8])
     return render_template('view_decks.html', decks=res, username=username, log=is_login)
 @app.route('/decks/new_deck')
@@ -370,7 +366,6 @@ def Add_card():
         for root, dirs, files in os.walk('static/images/icons'):
             for i in files:
                 if f'{i}.x' in request.form and i not in new_deck:
-                    print(f"Клик по {i}")
                     new_deck.append(i)
     return redirect('/decks/new_deck')
 
@@ -378,7 +373,6 @@ def Add_card():
 def Delete_card():
     for i in new_deck:
         if f'{i}.x' in request.form:
-            print(f"Клик по {i}")
             new_deck.remove(i)
     return redirect('/decks/new_deck')
 
