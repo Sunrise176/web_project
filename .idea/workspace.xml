@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9f25c3-63c8-4257-9fc0-3c0098404bb2" name="Changes" comment="session edit">
+    <list default="true" id="9e9f25c3-63c8-4257-9fc0-3c0098404bb2" name="Changes" comment="edits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/blogs.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/blogs.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="users" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +41,9 @@
     &quot;accountId&quot;: &quot;6f582882-ce41-40ed-be38-1e204eaf0ceb&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,17 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.user.executor&quot;: &quot;Run&quot;,
-    &quot;Python.users.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;users&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/web_project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main.executor": "Run",
+    "Python.user.executor": "Run",
+    "Python.users.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "users",
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/web_project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\web_project\static" />
@@ -165,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747309324988</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edits">
+      <option name="closed" value="true" />
+      <created>1747313154547</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747313154547</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +209,7 @@
     <MESSAGE value="all project" />
     <MESSAGE value="mini edits" />
     <MESSAGE value="session edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="session edit" />
+    <MESSAGE value="edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
 </project>
