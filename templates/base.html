@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>Заголовок страницы</title>
+  </head>
+  <body>
+    {% if log%}
+    <p>Вы вошли как {{username}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/logout">Выход</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/decks">Колоды</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/library">Юниты и заклинания</a></p>
+    <br>
+    {% else %}
+    <p>Вы вошли как {{username}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/register">Регистрация</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/login">Авторизация</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/decks">Колоды</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/library">Юниты и заклинания</a></p>
+    <br>
+    {% endif %}
+
+    </div class="1212">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>
